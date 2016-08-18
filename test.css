@@ -1,0 +1,65 @@
+html { 
+    background: url("Background.jpg") no-repeat center center fixed; 
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li{
+		float: right;
+		color: black;
+		display: inline;
+}
+
+li a{
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			font-size: 18px;
+}
+li a:hover {
+			background-color: #dd11aa
+}
+#title{
+	background-color: white;
+	text-align: center;
+	color: black;
+	padding: 20px;
+	align-content: center;
+	margin: 0px 200px 100px 200px;
+}
+#blogtitle{
+	margin-left: 200px;
+	color:white;
+}
+.titlecentre{
+	float: center;
+}
+.main{
+	padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    background-color: #eee7e5;
+    opacity: 0.7;
+    font: 19px arial, sans-serif;
+    margin-left:80px;
+    margin-right: 450px;
+ }
+
+ .travelphoto{
+ 	max-width: 300px;
+ 	max-height: 300px;
+ 	border: 15px solid #000000;
+  	padding: 15px;
+ }
