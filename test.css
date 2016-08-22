@@ -5,7 +5,13 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
 }
-ul{
+
+body {
+	margin: 0;
+}
+
+/*Fixed navigation bar on top*/
+ul.top_navbar{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -13,13 +19,13 @@ ul{
     background-color: #333;
 }
 
-li{
+ul.top_navbar li{
 		float: right;
 		color: black;
 		display: inline;
 }
 
-li a{
+ul.top_navbar li a{
 			display: block;
 			color: white;
 			text-align: center;
@@ -27,9 +33,11 @@ li a{
 			text-decoration: none;
 			font-size: 18px;
 }
-li a:hover {
+ul.top_navbar li a:hover {
 			background-color: #dd11aa
 }
+
+
 #title{
 	background-color: white;
 	text-align: center;
@@ -38,6 +46,8 @@ li a:hover {
 	align-content: center;
 	margin: 0px 200px 100px 200px;
 }
+
+
 #blogtitle{
 	margin-left: 200px;
 	color:white;
