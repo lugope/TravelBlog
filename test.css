@@ -82,3 +82,8 @@ td.article {
 td.aside {
 
 }
+
+/*Search Bar*/
+.search_bar{
+	width: 100%;
+}
