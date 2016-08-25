@@ -64,15 +64,15 @@ ul.top_navbar li a:hover {
 .travelphoto{
  	max-width: 300px;
  	max-height: 300px;
- 	border: 15px solid #000000;
+ 	border: 15px solid rgb(28, 32, 39);
   	padding: 15px;
  }
 
 /*Column's style*/
 td {
 	padding: 2em;
-	background-color: #eee7e5;
-	opacity: 0.7;
+	background-color: rgba(238, 231, 229, 0.7);
+	color: rgb(28, 32, 39);
 }
 
 td.article {
@@ -80,7 +80,7 @@ td.article {
 }
 
 td.aside {
-
+	font: 15px Arial, sans-serif;
 }
 
 /*Search Bar*/
@@ -91,7 +91,7 @@ td.aside {
 /*Header with title and image*/
 header{
 	color: white;
-	background-color: black;
+	background-color: rgb(28, 32, 39);
 	clear: left;
 	text-align: center;
 	height: 400px;
@@ -99,7 +99,6 @@ header{
 }
 
 header h1 {
-	color: white;
 	margin: 0;
 	position: absolute;
 	width: 100%;
@@ -109,7 +108,7 @@ header h1 {
 footer {
 	padding: 1em;
 	color: white;
-	background-color: black;
+	background-color: rgb(28, 32, 39);
 	clear: left;
 	text-align: center;
 }

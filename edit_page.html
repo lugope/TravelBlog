@@ -1,0 +1,59 @@
+<!DOCTYPE=html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Edit Page</title>
+	<link rel="stylesheet" type="text/css" href="src/styles/style.css">
+
+	<!-- Adding the java script library of Google's API -->
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+</head>
+<body>
+	<!-- Navbar -->
+	<ul class="top_navbar">
+		<img class="src/images/titlecenter": src="src/images/Travel Blog.jpg" alt="Travel Blog" align="center" style="width:250px;height:58px;">
+		<li><a href="#home">Home</a></li>
+		<li><a href="#signup">Sign Up</a></li>
+		<li><a href="#Login">Login</a></li>
+	</ul>
+
+	<div class="main">
+		<header><h1>Title</h1></header>
+
+		<table width="100%" border="0">
+ 			<tr valign="top">
+ 				<!-- Content column -->
+    			<td class="article" width="60%" >
+    				<form action="#">
+    					<p>Date: <input type="date" name="myDate"></p>
+    					
+    					<p>Title: <input type="text" name="MyTitle"></p>
+
+    					<p>Text: <input type="text" name="MyText"></p>
+
+    					<input type="submit" value="Submit">
+    				</form>
+    			</td>
+
+			    <!-- Map column -->
+			    <td class="aside" width="40%">
+			    	<h3>Choose location:</h3>
+
+			    	<!-- Google map -->
+			    	<div id="map" style="width:100%; height:300px; margin-top:1em;"></div>
+
+			    	<script>
+			    		var mapCanvas = document.getElementById("map");
+			    		var mapOptions = {
+			    			center: new google.maps.LatLng(51.5, -0.2), zoom: 10
+			    		}
+			    		var map = new google.maps.Map(mapCanvas, mapOptions);
+			    	</script>
+			    </td>
+			</tr>
+		<table>
+
+		<footer>Copyright©</footer>
+	</div>
+</body>
+</html>
