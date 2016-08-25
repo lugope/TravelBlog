@@ -87,3 +87,27 @@ td.aside {
 .search_bar{
 	width: 100%;
 }
+
+/*Header with title and image*/
+header{
+	color: white;
+	background-color: black;
+	clear: left;
+	text-align: center;
+	height: 400px;
+	line-height: 400px;
+}
+
+header h1 {
+	line-height: 1.5;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+footer {
+	padding: 1em;
+	color: white;
+	background-color: black;
+	clear: left;
+	text-align: center;
+}
