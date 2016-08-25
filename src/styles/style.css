@@ -1,5 +1,5 @@
 html { 
-    background: url("src/images/Background.jpg") no-repeat center center fixed; 
+    background: url("../images/Background.jpg") no-repeat center center fixed; 
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -99,9 +99,11 @@ header{
 }
 
 header h1 {
-	line-height: 1.5;
-	display: inline-block;
-	vertical-align: middle;
+	color: white;
+	margin: 0;
+	position: absolute;
+	width: 100%;
+	position: center;
 }
 
 footer {
